@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure SQL Injection Detection</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Secure Login System</h1>
+
+        <input type="text"
+               id="username"
+               placeholder="Enter Username">
+
+        <input type="password"
+               id="password"
+               placeholder="Enter Password">
+
+        <input type="text"
+               id="capability"
+               placeholder="Enter Capability Code">
+
+        <button onclick="secureLogin()">
+            Login
+        </button>
+
+        <h3 id="result"></h3>
+
+        <h2>Attack Logs</h2>
+
+        <ul id="logList"></ul>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
